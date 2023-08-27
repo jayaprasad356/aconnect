@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">N-Connect</string>
+    <string name="pbs_setup_title">Don’t have an account?  <font fgcolor="#1A237E">Signup</font></string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="incentive">Incentive</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="documents">Documents</string>
+    <string name="transaction">Transaction</string>
+    <string name="apply_leave">Apply Leave</string>
+    <string name="adv_salary">Advance Salary</string>
+    <string name="follow_ups">Follow-ups</string>
+    <string name="my_users">My Users</string>
+    <string name="my_performance">My Performance</string>
+    <string name="update">Update</string>
+    <string name="email_error">Please enter a Valid Email </string>
+    <string name="mobile_error">Please enter a Valid Mobile Number </string>
+    <string name="pass_empty">Please enter a Valid Password </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="my_leads">My Leads</string>
+    <string name="opporutunity_leads">Opportunity Leads</string>
+    <string name="my_opportunity_leads">My Opportunity Leads</string>
+
+</resources>

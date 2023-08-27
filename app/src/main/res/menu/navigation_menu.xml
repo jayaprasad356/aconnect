@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/white"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profilr"
+        android:iconTint="@color/white"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_my_performance"
+        android:icon="@drawable/performance"
+        android:iconTint="@color/white"
+        android:title="@string/my_performance" />
+    <item
+        android:id="@+id/nav_incentive"
+        android:icon="@drawable/ic_incentive"
+        android:iconTint="@color/white"
+        android:title="Incentive" />
+    <item
+        android:id="@+id/nav_withdrawal"
+        android:icon="@drawable/ic_withdrawal"
+        android:iconTint="@color/white"
+        android:title="Withdrawal" />
+    <item
+        android:id="@+id/nav_documents"
+        android:icon="@drawable/doc"
+        android:iconTint="@color/white"
+        android:title="Documents" />
+    <item
+        android:id="@+id/nav_report"
+        android:icon="@drawable/report"
+        android:iconTint="@color/white"
+        android:title="@string/follow_ups" />
+    <item
+        android:id="@+id/nav_myUsers"
+        android:icon="@drawable/users"
+        android:iconTint="@color/white"
+        android:title="@string/my_users" />
+
+    <item
+        android:id="@+id/nav_myLeads"
+        android:icon="@drawable/ic_lead"
+        android:iconTint="@color/white"
+        android:title="@string/my_leads" />
+
+    <item
+        android:id="@+id/nav_opportunities"
+        android:icon="@drawable/ic_baseline_sports_volleyball_24"
+        android:iconTint="@color/white"
+        android:title="@string/opporutunity_leads" />
+
+    <item
+        android:id="@+id/nav_myOpportunities"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:iconTint="@color/white"
+        android:title="@string/my_opportunity_leads" />
+
+
+
+    <item
+        android:id="@+id/nav_transaction"
+        android:icon="@drawable/transaction"
+        android:iconTint="@color/white"
+        android:title="@string/transaction" />
+<!--    <item-->
+<!--        android:id="@+id/nav_adv_salary"-->
+<!--        android:icon="@drawable/advance_sal"-->
+<!--        android:iconTint="@color/white"-->
+<!--        android:title="@string/adv_salary" />-->
+    <item
+        android:id="@+id/nav_applyLeave"
+        android:icon="@drawable/apply_leave"
+        android:iconTint="@color/white"
+        android:title="@string/apply_leave" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:iconTint="@color/white"
+        android:title="Logout" />
+</menu>
