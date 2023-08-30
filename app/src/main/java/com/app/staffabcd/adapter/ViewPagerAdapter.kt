@@ -31,12 +31,12 @@ class ViewPagerAdapter(
     override fun getPageTitle(position: Int): CharSequence? {
         var title: String? = null
         if (position == 0)
-            title = "Level 1"
+            title = "Refer 1"
         else if (position == 1)
-            title ="Level 2"
-        else if (position == 2) title = "Level 3"
-        else if (position == 3) title = "Level 4"
-        else if (position == 4) title = "Level 5"
+            title ="Refer 2"
+        else if (position == 2) title = "Refer 3"
+        else if (position == 3) title = "Refer 4"
+        else if (position == 4) title = "Refer 5"
 
         return title
     }

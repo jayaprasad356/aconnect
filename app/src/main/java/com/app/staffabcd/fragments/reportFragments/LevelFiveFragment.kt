@@ -48,7 +48,9 @@ class LevelFiveFragment : Fragment() {
         val params: HashMap<String, String> = hashMapOf()
         params.apply {
             this[Constant.STAFF_ID] = session.getData(Constant.STAFF_ID)
-            this[Constant.LEVEL] = "5"
+            this[Constant.REFER] = "5"
+
+
 
         }
         ApiConfig.RequestToVolley({ result, response ->
@@ -65,7 +67,7 @@ class LevelFiveFragment : Fragment() {
                                 val id = jsonObject1.getString(Constant.ID)
                                 val name = jsonObject1.getString(Constant.NAME)
                                 val refer_code = jsonObject1.getString(Constant.REFER_CODE)
-                                val total_codes = jsonObject1.getString(Constant.TOTAL_CODES)
+                                val total_codes = jsonObject1.getString(Constant.TOTAL_ADS)
                                 val worked_days = jsonObject1.getString(Constant.WORKED_DAYS)
                                 val mobile = jsonObject1.getString(Constant.MOBILE)
                                 val total_referrals = jsonObject1.getString(Constant.TOTAL_REFERRALS)

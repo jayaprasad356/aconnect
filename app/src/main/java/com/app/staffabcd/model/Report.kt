@@ -4,7 +4,7 @@ class Report {
     var id: String? = null
     var name: String? = null
     var refer_code: String? = null
-    var total_codes: String? = null
+    var total_ads: String? = null
     var worked_days: String? = null
     var mobile: String? = null
     var l_referral_count: String? = null
@@ -17,7 +17,7 @@ class Report {
         id: String?,
         name: String?,
         refer_code: String?,
-        total_codes: String?,
+        total_ads: String?,
         worked_days: String?,
         mobile: String?,
         l_referral_count: String?
@@ -25,7 +25,7 @@ class Report {
         this.id = id
         this.name = name
         this.refer_code = refer_code
-        this.total_codes = total_codes
+        this.total_ads = total_ads
         this.worked_days = worked_days
         this.mobile = mobile
         this.l_referral_count = l_referral_count

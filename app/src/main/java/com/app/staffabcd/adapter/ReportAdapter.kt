@@ -49,7 +49,7 @@ class ReportAdapter(
         val report: Report = reports[position]
         holder.tvName.text = report.name
         holder.tvReferCode.text=report.refer_code
-        holder.tvTotalcodes.text="Total Codes: "+report.total_codes
+        holder.tvTotalcodes.text="Total Ads: "+report.total_ads
         holder.tvMobile.text=report.mobile
         holder.tvWokedDays.text="Worked Days: "+report.worked_days
         holder.tvTotalreferrals.text="No. of refers: "+report.l_referral_count

@@ -26,6 +26,7 @@
         android:iconTint="@color/white"
         android:title="Withdrawal" />
     <item
+        android:visible="false"
         android:id="@+id/nav_documents"
         android:icon="@drawable/doc"
         android:iconTint="@color/white"
@@ -48,12 +49,14 @@
         android:title="@string/my_leads" />
 
     <item
+        android:visible="false"
         android:id="@+id/nav_opportunities"
         android:icon="@drawable/ic_baseline_sports_volleyball_24"
         android:iconTint="@color/white"
         android:title="@string/opporutunity_leads" />
 
     <item
+        android:visible="false"
         android:id="@+id/nav_myOpportunities"
         android:icon="@drawable/ic_baseline_person_pin_24"
         android:iconTint="@color/white"

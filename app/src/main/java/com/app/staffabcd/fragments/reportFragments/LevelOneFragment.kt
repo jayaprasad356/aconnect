@@ -1,6 +1,7 @@
 package com.app.staffabcd.fragments.reportFragments
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -43,7 +44,7 @@ class LevelOneFragment : Fragment() {
         val params: HashMap<String, String> = hashMapOf()
         params.apply {
             this[Constant.STAFF_ID] = session.getData(Constant.STAFF_ID)
-            this[Constant.LEVEL] = "1"
+            this[Constant.REFER] = "1"
 
         }
         ApiConfig.RequestToVolley({ result, response ->
@@ -51,6 +52,9 @@ class LevelOneFragment : Fragment() {
                 try {
                     val jsonObject = JSONObject(response)
                     if (jsonObject.getBoolean(Constant.SUCCESS)) {
+
+                        Log.d("refer1",response)
+
                         val jsonArray: JSONArray = jsonObject.getJSONArray(Constant.DATA)
                         val reports: ArrayList<Report> = ArrayList()
                         for (i in 0 until jsonArray.length()) {
@@ -60,7 +64,7 @@ class LevelOneFragment : Fragment() {
                                 val id = jsonObject1.getString(Constant.ID)
                                 val name = jsonObject1.getString(Constant.NAME)
                                 val refer_code = jsonObject1.getString(Constant.REFER_CODE)
-                                val total_codes = jsonObject1.getString(Constant.TOTAL_CODES)
+                                val total_codes = jsonObject1.getString(Constant.TOTAL_ADS)
                                 val worked_days = jsonObject1.getString(Constant.WORKED_DAYS)
                                 val mobile = jsonObject1.getString(Constant.MOBILE)
                                 val total_referrals = jsonObject1.getString(Constant.TOTAL_REFERRALS)
